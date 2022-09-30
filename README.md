@@ -1,5 +1,7 @@
 # semesterprocject1---sauna
-Semesterproject 1 - ES
+Semesterproject 1 - ES:
+
+
 The aim of this assignment was to design and develop a website for a sauna fleet in Vollen in Asker municipality. This included examining the following topics:
 
 - To plan the project.
