@@ -18,7 +18,7 @@ body {
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -37,13 +37,7 @@ body {
   padding: 14px 16px;
 }
 
-.items{
-  background: grey;
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
 
 header{
 
@@ -70,7 +64,7 @@ body {
 }
 
 .hero-image {
-  background: image(./isbad2.jpg) no-repeat center ;
+  background-image: url(../images/isbad2.jpg);
   background-size: cover;
   height: 500px;
   position: relative;
@@ -83,9 +77,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  border: 2px;
-  border-color: black;
+  color: rgb(2, 12, 16);
+  border: 6px;
+  border-color: whitesmoke;
 }
 .h2{
   text-align: center;
@@ -93,32 +87,12 @@ body {
 .h4{
   text-align: center;
 }
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-  position: relative;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
 .footer {
   background-color: #94ACBC;
   padding: 14px 16px;
   align-content: flex;
-  text-align: right;
+  text-align: center;
   color: #f2f2f2;
   
   
