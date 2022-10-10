@@ -70,7 +70,7 @@ body {
 }
 
 .hero-image {
-  background: url(https://images.app.goo.gl/zRUtT5Q7nz2YpAu98)no-repeat center ;
+  background: image(./isbad2.jpg) no-repeat center ;
   background-size: cover;
   height: 500px;
   position: relative;
