@@ -18,7 +18,7 @@ body {
 
 /* Style the topnav links */
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -46,16 +46,10 @@ header{
   padding: 10px 10px;
 }
 
-header div{
-
-  flex: 1;
-  text-align: center;
-  
-}
 
 .logo{
 flex: auto;
-position: relative;
+position: center;
 }
 
 
@@ -92,7 +86,7 @@ body {
 }
 
 .hero-image {
-  background-image: url(../images/isbad4.jpg);
+  background-image: url(../images/saunafront.jpg);
   background-size: cover;
   height: 600px;
   position: relative;
@@ -105,12 +99,17 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #604B75 (2, 12, 16);
+  color: #d1bdbd (2, 12, 16);
   border: 2px;
   border-color: black;
 }
 .h2{
   text-align: center;
+}
+.h3{
+text-align: center;
+color: #f1f1f1;
+
 }
 .h4{
   text-align: center;
