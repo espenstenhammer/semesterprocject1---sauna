@@ -11,7 +11,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #604B75;
+  background-color: #427BD2;
 }
 
 
@@ -39,7 +39,7 @@ body {
 
 
 
-header{
+header {
 
   display: flex;
   justify-content: center;
@@ -47,7 +47,7 @@ header{
 }
 
 
-.logo{
+.logo {
 flex: auto;
 position: center;
 }
@@ -71,11 +71,11 @@ position: center;
   .button2 {
     background-color: white; 
     color: black; 
-    border: 2px solid #008CBA;
+    border: 2px solid #427BD2;
   }
   
   .button2:hover {
-    background-color: #008CBA;
+    background-color: #427BD2;
     color: white;
   }
   
@@ -90,6 +90,7 @@ body {
   background-size: cover;
   height: 600px;
   position: relative;
+  border: 4px;
   
 }
 
@@ -116,10 +117,10 @@ color: #f1f1f1;
 }
 
 .footer {
-  background-color: #604B75;
+  background-color: #427BD2;
   padding: 14px 16px;
   align-content: flex;
-  text-align: center;
+  text-align: left;
   color: #f2f2f2;
   
   
