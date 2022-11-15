@@ -19,13 +19,15 @@ body {
 
 
 .hero-text {
- text-decoration: solid;
+ text-decoration:none;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  border: 4px;
+  border-color: aquamarine;
 }
 
 
@@ -40,7 +42,7 @@ body {
   font-style: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: cover;
-  border: 2px solid #ccc;
+  
   
  
   
