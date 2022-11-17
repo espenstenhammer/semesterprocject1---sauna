@@ -10,8 +10,8 @@ body {
 }
 /* Style the header */
 .header {
-  background-color: #F5770B;
-  padding: 10px;
+  background-color: #F7C93E;
+  padding: 1px;
   text-align: center;
   background-image: cover;
  
@@ -34,6 +34,7 @@ body {
 
 .h1 {
   text-align: center;
+  font-weight: bolder;
 
 }
 .h2{
@@ -80,24 +81,7 @@ body {
   
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 div.gallery {
   border: 2px solid black;
 }
@@ -229,12 +213,12 @@ body {font-family: Verdana, sans-serif;}
 
 .button {
   border-radius: 15px;
-  background-color: orangered;
+  background-color: #F0701A;
   border: 2px solid black;
   border-color: black;
   padding: 10px 32px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: white;
   display: inline-block;
   font-size: 12px;
   margin:   6px 2px;
@@ -246,7 +230,7 @@ body {font-family: Verdana, sans-serif;}
 /* Style the footer */
 
 .footer {
-  background-color: #F5770B;
+  background-color: #F7C93E;
   padding: 10px;
   text-align: center;
 }
