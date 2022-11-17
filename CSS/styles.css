@@ -136,13 +136,16 @@ body {font-family: Verdana, sans-serif;}
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #F7C93E;
   text-align: center;
+  border: 1px solid black;
+  ;
 }
 
 .month ul {
   margin: 0;
   padding: 0;
+  
 }
 
 .month ul li {
@@ -216,7 +219,7 @@ body {font-family: Verdana, sans-serif;}
   border-radius: 15px;
   background-color: #F0701A;
   border: 2px solid black;
-  padding: 10px 32px;
+  padding: 8px 52px;
   text-align: center;
   display: inline-block;
   font-size: 12px;
