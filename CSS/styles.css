@@ -221,10 +221,10 @@ body {font-family: Verdana, sans-serif;}
 
 .button {
   color: white;
-  border-radius: 15x;
+  border-radius: 5%;
   background-color: #F0701A;
   border: 2px solid black;
-  padding: 8px 52px;
+  padding: 8px 12px;
   text-align: center;
   display: inline-block;
   font-size: 12px;
