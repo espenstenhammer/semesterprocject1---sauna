@@ -10,7 +10,7 @@ body {
 }
 
 
-/* Style the header */
+
 .header {
   background-color: #F7C93E;
   padding: 20px;
@@ -30,7 +30,6 @@ body {
   transform: translate(-50%, -50%);
   color: black;
   border: 4px;
-  border-color: aquamarine;
 }
 
 
@@ -47,21 +46,17 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: cover;
   
-  
-  
- 
-  
 }
 
 
-/* Style the top navigation bar */
+
 .topnav {
   overflow: hidden;
   background-color: black;
   
 }
 
-/* Style the topnav links */
+
 .topnav a {
   float: left;
   display: block;
@@ -72,7 +67,7 @@ body {
   font-size: smaller;
 }
 
-/* Change color on hover */
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -245,10 +240,7 @@ input[type=submit] {
   margin:   6px 2px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #F0701A;
-}
+
 
 /* Add a background color and some padding around the form */
 .container {
@@ -256,6 +248,21 @@ input[type=submit]:hover {
   background-color: #F7C93E;
   padding: 20px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+}
+.grid-container > div {
+  background-color: #F0701A;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  
+}
+
 .button {
   color: white;
   border-radius: 4%;
