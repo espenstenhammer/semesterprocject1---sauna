@@ -23,14 +23,14 @@ body {
 .hero-text {
  text-decoration:none;
   text-align: center;
-  position: relative;
+  position: fixed;
   display: block;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
   border: 4px;
-  border-color: aquamarine;
+  
 }
 
 
