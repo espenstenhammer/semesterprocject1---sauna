@@ -1,10 +1,9 @@
-
-
 body {
   margin: 0;
   background-color: white;
   font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +15,7 @@ body {
   padding: 20px;
   text-align: center;
   background-image: cover;
- 
+
 }
 
 
@@ -29,14 +28,15 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.h2{
+
+.h2 {
   text-decoration: none;
   text-align: center;
   font-size: smaller;
   font-style: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: cover;
-  
+
 }
 
 
@@ -44,7 +44,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: black;
-  
+
 }
 
 
@@ -68,7 +68,7 @@ body {
   background-color: #F7F6EF;
   padding: 10px;
   text-align: center;
-  
+
 }
 
 
@@ -120,9 +120,18 @@ div.desc {
   display: table;
   clear: both;
 }
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
 
 .month {
   padding: 70px 25px;
@@ -136,7 +145,7 @@ body {font-family: Verdana, sans-serif;}
 .month ul {
   margin: 0;
   padding: 0;
-  
+
 }
 
 .month ul li {
@@ -181,7 +190,7 @@ body {font-family: Verdana, sans-serif;}
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size:12px;
+  font-size: 12px;
   color: #777;
 }
 
@@ -193,27 +202,43 @@ body {font-family: Verdana, sans-serif;}
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
+
+  .weekdays li,
+  .days li {
+    width: 13.1%;
+  }
 }
 
 @media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
+
+  .weekdays li,
+  .days li {
+    width: 12.5%;
+  }
+
+  .days li .active {
+    padding: 2px;
+  }
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
+
+  .weekdays li,
+  .days li {
+    width: 12.2%;
+  }
 }
 
-input[type=text], select, textarea 
-{
-  width:100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px;   
-  margin-bottom: 16px; 
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical;
 }
 
@@ -228,7 +253,7 @@ input[type=submit] {
   text-align: center;
   display: inline-block;
   font-size: 12px;
-  margin:   6px 2px;
+  margin: 6px 2px;
 }
 
 
@@ -242,15 +267,16 @@ input[type=submit] {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
- 
+
 }
-.grid-container > div {
+
+.grid-container>div {
   background-color: #F0701A;
   border: 1px solid black;
   text-align: center;
   font-size: 12px;
   position: absolute;
-  
+
 }
 
 .button {
@@ -262,9 +288,9 @@ input[type=submit] {
   text-align: center;
   display: inline-block;
   font-size: 12px;
-  margin:   6px 2px;
+  margin: 6px 2px;
   cursor: pointer;
-  
+
 }
 
 
@@ -273,4 +299,3 @@ input[type=submit] {
   padding: 10px;
   text-align: center;
 }
-
