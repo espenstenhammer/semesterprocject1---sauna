@@ -24,7 +24,9 @@ body {
 
 .h1 {
   text-align: center;
-  font-weight: small;
+  font-size: bold;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .h2{
@@ -100,14 +102,14 @@ div.desc {
   text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .responsive {
     width: 100%;
   }
@@ -203,18 +205,18 @@ body {font-family: Verdana, sans-serif;}
   .weekdays li, .days li {width: 12.2%;}
 }
 
-input[type=text], select, textarea {
-  width:100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */   
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text], select, textarea 
+{
+  width:100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;   
+  margin-bottom: 16px; 
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #F0701A;
   color: white;
@@ -231,7 +233,6 @@ input[type=submit] {
 
 
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #F7C93E;
@@ -266,7 +267,6 @@ input[type=submit] {
   
 }
 
-/* Style the footer */
 
 .footer {
   background-color: #F7C93E;
